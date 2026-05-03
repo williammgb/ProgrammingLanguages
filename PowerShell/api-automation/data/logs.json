@@ -1,0 +1,57 @@
+[
+  {
+    "user": "alice",
+    "level": "INFO",
+    "event": "login"
+  },
+  {
+    "user": "alice",
+    "level": "ERROR",
+    "event": "forbidden_access"
+  },
+  {
+    "user": "bob",
+    "level": "INFO",
+    "event": "login"
+  },
+  {
+    "user": "bob",
+    "level": "ERROR",
+    "event": "validation_failed"
+  },
+  {
+    "user": "bob",
+    "level": "INFO",
+    "event": "profile_update"
+  },
+  {
+    "user": "alice",
+    "level": "INFO",
+    "event": "validation_success"
+  },
+  {
+    "user": "alice",
+    "level": "INFO",
+    "event": "validation_success"
+  },
+  {
+    "user": "alice",
+    "level": "INFO",
+    "event": "validation_success"
+  },
+  {
+    "user": "bob",
+    "level": "INFO",
+    "event": "validation_success"
+  },
+  {
+    "user": "bob",
+    "level": "ERROR",
+    "event": "validation_failed"
+  },
+  {
+    "user": "bob",
+    "level": "INFO",
+    "event": "validation_success"
+  }
+]

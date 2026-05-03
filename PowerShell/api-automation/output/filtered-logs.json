@@ -1,0 +1,12 @@
+﻿[
+    {
+        "user":  "bob",
+        "level":  "ERROR",
+        "event":  "validation_failed"
+    },
+    {
+        "user":  "bob",
+        "level":  "ERROR",
+        "event":  "validation_failed"
+    }
+]
