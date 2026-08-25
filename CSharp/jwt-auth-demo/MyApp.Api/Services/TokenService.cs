@@ -21,6 +21,9 @@ public class TokenService : ITokenService
     {
         var jwtSection = config.GetSection("Jwt");
         var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSection["Key"]!));
+        // credentials are used to create signature based on header and payload; by the WriteToken() method
+        // authentication stage also computes signature using the same key they have and compares with given signature
+        // to verify header and payload have not been changed
         var credentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
         // Claims are pieces of information about the user stored inside the JWT
