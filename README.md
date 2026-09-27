@@ -11,4 +11,4 @@ A collection of projects to strengthen my skills in different programming langua
 - **api-automation (may 2026)** - A modular PowerShell automation workflow that uses a Python FastAPI backend to handle configuration, authentication and log processing.
   
 ## Java
-*(No projects yet)*
+- **firewall-simulator (sep 2026)** - A simulated packet-filtering firewall: a traffic generator feeds synthetic packets through rules loaded from a text config file, with CIDR and port-range matching, connection tracking so replies get back in, per-source rate limiting, and a per-rule hit report that exposes dead or shadowed rules.

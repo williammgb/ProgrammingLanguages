@@ -1,0 +1,17 @@
+# Build output
+target/
+out/
+*.class
+
+# Personal working notes, not part of the project
+notes.md
+.work/
+
+# User/IDE-specific files
+.idea/
+*.iml
+.vscode/
+
+# OS junk
+Thumbs.db
+.DS_Store

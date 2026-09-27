@@ -1,0 +1,11 @@
+# action  protocol  source        port          [established | N/s]
+allow     tcp       any           any           established   # answers to connections we opened
+allow     tcp       10.0.0.0/8    22            # SSH from our own network is fine
+deny      tcp       any           22            # SSH from anywhere else, blocked
+allow     tcp       10.0.0.0/8    30000-32000   # internal test servers live in this band
+allow     tcp       any           443           # HTTPS, our web server listens on this port
+allow     tcp       any           80            200/s   # HTTP redirect only, so no source needs more than this
+deny      udp       any           any           # we run nothing on UDP
+
+# What happens to a packet no rule above matched.
+policy    deny
