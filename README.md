@@ -12,6 +12,3 @@ A collection of projects to strengthen my skills in different programming langua
   
 ## Java
 *(No projects yet)*
-
-## Python
-*(No projects yet)*
